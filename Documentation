@@ -1,0 +1,13 @@
+How This Program Works:
+File Read & Write:
+⦁	Reads a file specified by the user
+⦁	Modifies the content (in this case, converts it to uppercase)
+⦁	Writes the modified content to a new file with "modified_" prefix
+
+Error Handling Lab:
+⦁	Handles several specific exceptions:
+⦁	FileNotFoundError: When the file doesn't exist
+⦁	PermissionError: When the user doesn't have read permissions
+⦁	IsADirectoryError: When the path is a directory, not a file
+⦁	UnicodeDecodeError: When trying to read a binary file as text
+⦁	General Exception as a catch-all for other errors
